@@ -34,8 +34,16 @@ Develop a smart irrigation system that efficiently controls water distribution b
 ## How It Works
 The irrigation system continuously monitors soil moisture using sensors. Based on moisture levels, the **RTOS** manages the tasks of reading sensor data and controlling water pumps. If a sensor detects a moisture level below the defined threshold (e.g., 50%), the corresponding water pump activates to irrigate that area. The system operates using **mutexes** and **interrupts** to ensure smooth, concurrent task execution.
 
-## Hardware Connections
-![Hardware Setup](images/hardware_setup.png)
+###Code Explanation
+### 1. **Pin Initialization**
+In this step, the pins for various components (sensors, pumps, relays) are initialized. This includes configuring **GPIO ports** and defining **input/output** modes for the relevant peripherals.
+![Intializing pins]
+(https://github.com/user-attachments/assets/b86ecbdd-c22a-48a4-baba-06207c79fe46)
+
+
+
+
+
 
 ## Bill of Materials
 | Item                   | Price (INR) | Quantity | Total Cost (INR) |
@@ -53,7 +61,7 @@ The irrigation system continuously monitors soil moisture using sensors. Based o
 | **Total Cost**          |             |          | **2648 INR**     |
 
 ## Circuit Diagram
-![Circuit Diagram](Images/Block Diagram.png)
+![Block Diagram](https://github.com/user-attachments/assets/8ad50b1b-6206-458e-a0cd-e3d1277d1bfd)
 
 ## Future Scope
 - **IoT Integration:** Add remote control features through a web or mobile app.
@@ -61,7 +69,9 @@ The irrigation system continuously monitors soil moisture using sensors. Based o
 - **Water Conservation:** Implement water-saving methods like rainwater harvesting.
 
 ## Video Demo
-[Upload a video and provide the link here]
+
+https://github.com/user-attachments/assets/fa82dd41-3fac-4f00-9d9b-0970a1e04d73
+
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
