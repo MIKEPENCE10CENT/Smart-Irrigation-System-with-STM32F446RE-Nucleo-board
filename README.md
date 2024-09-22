@@ -52,6 +52,7 @@ Here’s how priority levels are defined for each task in the project:
 
 ### Soil Function
 Here’s The soil function defined in the project:
+
 ![Soil Function](https://github.com/user-attachments/assets/6d66f3d7-a15b-4d7f-9864-2e56dafe4c47)
 
 
