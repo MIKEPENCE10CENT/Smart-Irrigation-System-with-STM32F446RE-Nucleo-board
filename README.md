@@ -31,7 +31,8 @@ Develop a smart irrigation system that efficiently controls water distribution b
 - **TeraTerm**: Used for serial communication.
 
 ## Circuit Diagram
-(https://github.com/user-attachments/assets/8ad50b1b-6206-458e-a0cd-e3d1277d1bfd)  
+![Block Diagram](https://github.com/user-attachments/assets/f9578a4e-ba86-4841-9377-0ddc8ef61443)
+
 
 ## How It Works
 The irrigation system continuously monitors soil moisture using sensors. Based on moisture levels, the **RTOS** manages the tasks of reading sensor data and controlling water pumps. If a sensor detects a moisture level below the defined threshold (e.g., 50%), the corresponding water pump activates to irrigate that area. The system operates using **mutexes** and **interrupts** to ensure smooth, concurrent task execution.
@@ -39,9 +40,8 @@ The irrigation system continuously monitors soil moisture using sensors. Based o
 ###Code Explanation
 ### 1. **Pin Initialization**
 In this step, the pins for various components (sensors, pumps, relays) are initialized. This includes configuring **GPIO ports** and defining **input/output** modes for the relevant peripherals.
-![Intializing pins]
-(https://github.com/user-attachments/assets/b86ecbdd-c22a-48a4-baba-06207c79fe46)
 
+![Intializing pins](https://github.com/user-attachments/assets/d7f4d16c-a636-4d5f-a33a-4125454cf3f6)
 
 
 
