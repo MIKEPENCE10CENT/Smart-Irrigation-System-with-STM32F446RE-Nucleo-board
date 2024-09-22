@@ -13,8 +13,7 @@ Develop a smart irrigation system that efficiently controls water distribution b
 - **Automatic Pump Control:** Based on sensor data, water pumps activate when soil moisture levels drop below a set threshold.
 - **Parallel Task Execution:** Allows simultaneous data collection from multiple sensors for real-time monitoring.
 
-## Block Diagram
-![Block Diagram](images/block_diagram.png)
+
 
 ## Hardware Components
 - **STM32F446RE Nucleo-board**
@@ -30,6 +29,9 @@ Develop a smart irrigation system that efficiently controls water distribution b
 ## Software Tools
 - **STM32CubeIDE**: For coding and flashing the microcontroller.
 - **TeraTerm**: Used for serial communication.
+
+## Circuit Diagram
+(https://github.com/user-attachments/assets/8ad50b1b-6206-458e-a0cd-e3d1277d1bfd)  
 
 ## How It Works
 The irrigation system continuously monitors soil moisture using sensors. Based on moisture levels, the **RTOS** manages the tasks of reading sensor data and controlling water pumps. If a sensor detects a moisture level below the defined threshold (e.g., 50%), the corresponding water pump activates to irrigate that area. The system operates using **mutexes** and **interrupts** to ensure smooth, concurrent task execution.
@@ -60,8 +62,6 @@ In this step, the pins for various components (sensors, pumps, relays) are initi
 | Pipe                    | 50          | 1        | 50               |
 | **Total Cost**          |             |          | **2648 INR**     |
 
-## Circuit Diagram
-![Block Diagram](https://github.com/user-attachments/assets/8ad50b1b-6206-458e-a0cd-e3d1277d1bfd)
 
 ## Future Scope
 - **IoT Integration:** Add remote control features through a web or mobile app.
