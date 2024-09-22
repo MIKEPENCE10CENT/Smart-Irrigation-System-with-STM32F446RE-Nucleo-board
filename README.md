@@ -108,7 +108,7 @@ The irrigation system continuously monitors soil moisture using sensors. Based o
 | **Total Cost**          |             |          | **2648 INR**     |
 
 ## Circuit Diagram
-![Circuit Diagram](images/circuit_diagram.png)
+![Circuit Diagram](Images/Block Diagram.png)
 
 ## Future Scope
 - **IoT Integration:** Add remote control features through a web or mobile app.
